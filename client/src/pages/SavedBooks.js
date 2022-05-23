@@ -14,6 +14,7 @@ import { REMOVE_BOOK } from '../utils/mutations'
 
 const SavedBooks = () => {
   const { loading, data } = useQuery(GET_ME)
+  /* eslint-disable no-unused-vars */
   const [removeBook, { error }] = useMutation(REMOVE_BOOK)
   const userData = data?.me || {}
 

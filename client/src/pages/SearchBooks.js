@@ -17,7 +17,7 @@ const SearchBooks = () => {
   const [searchedBooks, setSearchedBooks] = useState([])
   const [searchInput, setSearchInput] = useState('')
   const [savedBookIds, setSavedBookIds] = useState(getSavedBookIds())
-
+  /* eslint-disable no-unused-vars */
   const [saveBook, { error }] = useMutation(SAVE_BOOK)
 
   useEffect(() => {
@@ -66,6 +66,7 @@ const SearchBooks = () => {
     }
 
     try {
+      /* eslint-disable no-unused-vars */
       const { data } = await saveBook({
         variables: { newBook: { ...bookToSave } },
       })
