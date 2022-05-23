@@ -12,9 +12,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  },
   "dependencies": {
-    "apollo-server": "^3.7.0",
-    "concurrently": "^7.2.0",
-    "graphql": "^16.5.0"
+    "apollo-client": "^2.6.10",
+    "graphql": "^15.5.2"
   }
 }
