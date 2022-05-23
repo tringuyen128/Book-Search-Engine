@@ -23,7 +23,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Deployed Application 
 
 [Book Search Engine App](https://book-search-challenge-21-mern.herokuapp.com)<br />
-![Image]()<br />
+<br />
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/73785514/169908977-756e11ba-1ba2-45b7-916b-be343781215e.gif)<br />
 
 
 ## Usage
